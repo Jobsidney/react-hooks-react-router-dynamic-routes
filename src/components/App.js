@@ -13,14 +13,14 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Switch>
+      {/* <Switch>
         <Route path="/movies">
           <MoviesPage movies={movies} />
         </Route>
         <Route exact path="/">
           <div>Home</div>
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
